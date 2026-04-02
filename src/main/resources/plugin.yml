@@ -1,0 +1,9 @@
+name: AdvSurvivalPlugin
+version: 1.0.0
+main: my.pkg.AdvSurvivalPlugin
+api-version: '1.21'
+commands:
+  advsurvival:
+    description: 도전과제 서바이벌 시작/종료/시간확인
+    usage: /advsurvival <start|stop|time> <player>
+    aliases: [asurvival, advs]
